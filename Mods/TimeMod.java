@@ -1,14 +1,14 @@
-package gurjasclient.mods.impl;
+package your.package.path.here;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-import gurjasclient.gui.hud.ScreenPosition;
-import gurjasclient.mods.ModDraggable;
+import clientname.gui.hud.ScreenPosition;
+import clientname.mods.ModDraggable;
 
-public class timeMod extends ModDraggable {
+public class TimeMod extends ModDraggable {
 
 	/* 
 	 * Made by GurJas
