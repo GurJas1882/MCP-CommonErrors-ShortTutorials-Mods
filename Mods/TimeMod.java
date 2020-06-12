@@ -27,21 +27,21 @@ public class TimeMod extends ModDraggable {
 
 	@Override
 	public void render(ScreenPosition pos) {
+		
 		// 24 Hour Clock
-
-//	    Calendar cal = Calendar.getInstance();
-//	    Date date=cal.getTime();
-//	    DateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
-//	    String formattedDate = dateFormat.format(date);
+//	    	Calendar cal = Calendar.getInstance();
+//	    	Date date=cal.getTime();
+//	    	DateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
+//	    	String formattedDate = dateFormat.format(date);
 		
 		
 		// 12 Hour Clock
 		Date date = new Date();
-	    String strDateFormat = "hh:mm:ss a";
-	    DateFormat dateFormat = new SimpleDateFormat(strDateFormat);
-	    String formattedDate = dateFormat.format(date);
+	    	String strDateFormat = "hh:mm:ss a";
+	    	DateFormat dateFormat = new SimpleDateFormat(strDateFormat);
+	    	String formattedDate = dateFormat.format(date);
 	    
-	    // Text
+	    	// Text
 		font.drawString("Time: " + formattedDate, pos.getAbsoluteX() + 1, pos.getAbsoluteY() + 1, -1);	
 	}
 
