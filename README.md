@@ -1,4 +1,4 @@
-# MCP | Common Errors, Short Tutorials, Mods
+# MCP | Common Errors, Short Tutorials and Mods
 Before developing a client, I expect you have to prior knowlegde of Java.
 
 ## Mods
